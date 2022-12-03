@@ -7,28 +7,28 @@
 ## Methods
   - API
   - Data Cleaning and Preprocessing
-  - Check correlations
+  - Correlation
+    - Visualization
   - Export Data
-  - Visualization
   
 ## Libraries 
   - Python
+  - Fredapi
   - Pandas
   - Numpy
-  - Fredapi
+  - Datetime
+  - Sklearn.preprocessing
   - Matplotlib
   - Plotly.express
   - Seaborn
-  - Datetime
-  - Sklearn.preprocessing
-  
+    
 ## Tools
   - Google Colab
   
 ## Steps
   - On the website https://research.stlouisfed.org/ I researched and identified the data that could help me discover the variation of which index most affects real state prices in the United States.
   - I filtered the S&P 500 data to convert daily to monthly information so I could compare this index to other indexes.
-  - I used MinMaxScaler to normalize the data and merge to have all information in a single dataframe.
+  - I used MinMaxScaler to normalize the data and merge to have all information in the same dataframe.
 
 ## Conclusion
   In the last 10 years the evolution of the U.S. National Home Price Index (CSUSHPINSA) was very similar to the variation of the S&P500 index (500 large companies listed on stock exchanges in the United States). The correlation with the Median Consumer Price Index (MEDCPIM158SFRBCLE) also is hight.
