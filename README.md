@@ -1,4 +1,4 @@
-## US_home_price_analysis 
+## Project: US_home_price_analysis 
   Project status (Active)
 
 ## Objective
@@ -8,7 +8,7 @@
   - API
   - Data Cleaning and Preprocessing
   - Correlation
-    - Visualization
+  - Visualization
   - Export Data
   
 ## Libraries 
@@ -36,3 +36,9 @@
 ![image](https://user-images.githubusercontent.com/112282677/205461910-0e5ef694-4d12-4f41-aafa-0e4f2d9e1d0f.png)
 
 ![image](https://user-images.githubusercontent.com/112282677/205461973-66e90bf2-1294-4c29-a4a7-0436db89ec43.png)
+
+📫 If you have any questions or comments, please let me know!
+    
+    https://www.linkedin.com/in/lenagrumbach/
+    
+    lenagrumbach@gmail.com
