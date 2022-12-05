@@ -32,9 +32,10 @@
   - I used MinMaxScaler to normalize the data and merge to have all information in the same dataframe.
 
 ## Conclusion
-  In the last 10 years the evolution of the U.S. National Home Price Index (CSUSHPINSA) was very similar to the variation of the S&P500 index (500 large companies listed on stock exchanges in the United States). The correlation with the Median Consumer Price Index (MEDCPIM158SFRBCLE) also is hight.
+  In the last 10 years, the index that showed the greatest correlation with House Prices was the S&P500.
     
-![image](https://user-images.githubusercontent.com/112282677/205683711-03de458b-5de9-4fa0-9ab4-e33918740321.png)
+![image](https://user-images.githubusercontent.com/112282677/205692255-bf409133-eb94-4699-a264-3952b1b523cf.png)
+
 
 
 📫 If you have any questions or comments, please let me know!
