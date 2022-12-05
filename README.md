@@ -1,4 +1,4 @@
-## US_home_price_analysis 
+## US_house_price_analysis 
   Project status (Active)
 
 ## Objective
@@ -24,6 +24,7 @@
     
 ## Tools
   - Google Colab
+  - Tableau
   
 ## Steps
   - On the website https://research.stlouisfed.org/ I researched and identified the data that could help me discover the variation of which index most affects real state prices in the United States.
@@ -33,9 +34,8 @@
 ## Conclusion
   In the last 10 years the evolution of the U.S. National Home Price Index (CSUSHPINSA) was very similar to the variation of the S&P500 index (500 large companies listed on stock exchanges in the United States). The correlation with the Median Consumer Price Index (MEDCPIM158SFRBCLE) also is hight.
     
-![image](https://user-images.githubusercontent.com/112282677/205461910-0e5ef694-4d12-4f41-aafa-0e4f2d9e1d0f.png)
+![image](https://user-images.githubusercontent.com/112282677/205683711-03de458b-5de9-4fa0-9ab4-e33918740321.png)
 
-![image](https://user-images.githubusercontent.com/112282677/205461973-66e90bf2-1294-4c29-a4a7-0436db89ec43.png)
 
 📫 If you have any questions or comments, please let me know!
     
