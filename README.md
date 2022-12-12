@@ -1,5 +1,5 @@
 ## US_house_price_analysis 
-  Project status (Active)
+  Project status (in progress)
 
 ## Objective
   The objective of this project is to use the FRED API to get some insights about the US real state prices.
