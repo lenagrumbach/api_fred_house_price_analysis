@@ -7,9 +7,8 @@
 ## Methods
   - API
   - Data Cleaning and Preprocessing
-  - Correlation
   - Visualization
-  - Export Data
+  - Exporting Data
   
 ## Libraries 
   - Python
@@ -24,7 +23,7 @@
     
 ## Tools
   - Google Colab
-  - Tableau
+  - Jupyter
   
 ## Steps
   - On the website https://research.stlouisfed.org/ I researched and identified the data that could help me discover the variation of which index most affects real state prices in the United States.
