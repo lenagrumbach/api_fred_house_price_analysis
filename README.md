@@ -2,8 +2,7 @@
   Status do projeto (em andamento)
 
 ## Objetivo
-  O objetivo desse projeto é extrair dados através de uma API e gerar uma análise a partir destes dados. 
-  Usei a API do do FRED (dados econômicos do Federal Reserve Bank of St. Louis) para comparar índices financeiros com o índice de preço dos imóveis nos USA.
+  O objetivo desse projeto é analisar o relacionamento entre índices financeiros e o preço de imóveis nos Estados Unidos. Os dados foram extraidos através da API FRED (dados econômicos do Federal Reserve Bank of St. Louis).
     
 ## Técnicas
   - Extração
@@ -46,7 +45,7 @@
 
 ![image](https://user-images.githubusercontent.com/112282677/207201190-ae5bfa80-a3b3-45b2-9c9e-ca70c812983b.png)
 
- - Inflação e Taxa de Juros não apresentaram impacto expressivo no preço dos imóveis. Porém, vale ressaltar que inflação alta é uma situação nova nos USA, sendo recomendável repetir essa análise nos próximos meses para tirar uma conclusão mais precisa.
+ - Inflação e Taxa de Juros não apresentaram impacto expressivo no preço dos imóveis. Porém, vale ressaltar que a inflação alta observada a partir do segundo semestre de 2021 nos EUA é uma situação atípica no país, sendo recomendável continuar essa análise nos próximos meses para verificar se o padrão recente se mantém. 
  
  ![image](https://user-images.githubusercontent.com/112282677/207202351-37e8ba32-6a52-4d34-adb6-0f04a8a18bb0.png)
 
