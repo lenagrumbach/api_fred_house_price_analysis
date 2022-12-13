@@ -1,16 +1,17 @@
 ## US_house_price_analysis 
-  Project status (in progress)
+  Status do projeto (em andamento)
 
-## Objective
-  The objective of this project is to use the FRED API to get some insights about the US real state prices.
-  
-## Methods
-  - API
-  - Data Cleaning and Preprocessing
-  - Visualization
-  - Exporting Data
-  
-## Libraries 
+## Objetivo
+  O objetivo desse projeto é extrair dados através de uma API e gerar uma análise a partir destes dados. 
+  Usei a API do do FRED (dados econômicos do Federal Reserve Bank of St. Louis) para comparar índices financeiros com o preço dos imóveis nos USA.
+    
+## Técnicas
+  - Extração
+  - Limpeza e processamento
+  - Visualização
+  - Exportação
+ 
+## Bibliotecas 
   - Python
   - Fredapi
   - Pandas
@@ -21,24 +22,39 @@
   - Plotly.express
   - Seaborn
     
-## Tools
-  - Google Colab
+## Ferramenta
   - Jupyter
   
-## Steps
-  - On the website https://research.stlouisfed.org/ I researched and identified the data that could help me discover the variation of which index most affects real state prices in the United States.
-  - I filtered the S&P 500 data to convert daily to monthly information so I could compare this index to other indexes.
-  - I used MinMaxScaler to normalize the data and merge to have all information in the same dataframe.
+## Etapas
+  - No site https://research.stlouisfed.org/ pesquisei e identifiquei os dados que pudessem me ajudar a descobrir os índices cuja variação tem maior correlação com o índice dos preços dos imóveis nos Estados Unidos.
+ - Filtre os dados do S&P 500 para converter informações diárias em mensais e poder comparar com os índices com informação mensal. Fiz o mesmo processo com a taxa de juros.
+ - Juntei todas as informações em um único dataframe.
+ - Usei MinMaxScaler para normalizar os valores que foram utilizados nos gráficos.
+ - Exportei os dados para o banco de dados no MySQL.
+ - Fiz envio automático de e-mail com as informações diárias.
+ - Gerei arquivo de log.
 
-## Conclusion
-  In the last 10 years, the index that showed the greatest correlation with House Prices was the S&P500.
-    
-![image](https://user-images.githubusercontent.com/112282677/205692255-bf409133-eb94-4699-a264-3952b1b523cf.png)
+## Conclusão
+ - Observei que nos últimos 10 anos a evolução do índice de preço dos imóveis acompanhou a evolução do S&P 500 (um dos principais indicadores de ações norte-americanas, seria equivalente ao Ibovespa aqui no Brasil).
+
+![image](https://user-images.githubusercontent.com/112282677/207201190-ae5bfa80-a3b3-45b2-9c9e-ca70c812983b.png)
+
+ - Inflação e Taxa de Juros não apresentaram impacto expressivo no preço dos imóveis. Porém, vale ressaltar que inflação alta é uma situação nova nos USA, sendo recomendável repetir essa análise nos próximos meses para tirar uma conclusão mais precisa.
+ 
+ ![image](https://user-images.githubusercontent.com/112282677/207202351-37e8ba32-6a52-4d34-adb6-0f04a8a18bb0.png)
+
+![image](https://user-images.githubusercontent.com/112282677/207202414-859dcf3a-be5f-4f69-bdb2-eb485f36a9aa.png)
+
+ - Exceto pelo pico de desemprego em 2020, o comportamento está dentro do esperado. Desemprego baixo, preço dos imóveis mais alto, desemprego alto, preço dos imóveis mais baixo. Essa relação é bem visível no gráfico entre 2013 e 2019.
+ 
+ ![image](https://user-images.githubusercontent.com/112282677/207202975-c54ef846-41c9-49f6-9011-7680b57f3498.png)
+ 
+   - Essa foi uma análise introdutória para obter alguns insights. Como próximos passos, poderíamos, por exemplo, segmentar por regiões e verificar se o comportamento foi igual em todo o país.
 
 
-
-📫 If you have any questions or comments, please let me know!
+📫 Se você tiver algum comentário ou sugestão, por favor me avise!
     
     https://www.linkedin.com/in/lenagrumbach/
     
     lenagrumbach@gmail.com
+
