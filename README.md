@@ -13,40 +13,33 @@
   
 ## Etapas
   - No site https://research.stlouisfed.org/ pesquisei e identifiquei os dados que pudessem me ajudar a descobrir os índices cuja variação tem maior correlação com o índice dos preços dos imóveis nos Estados Unidos.
- - Filtre os dados do S&P 500 para converter informações diárias em mensais e poder comparar com os índices com informação mensal. Fiz o mesmo processo com a taxa de juros.
+ - Filtrei os dados do S&P 500 para converter informações diárias em mensais e poder comparar com os índices com informação mensal. Fiz o mesmo processo com a taxa de juros.
  - Juntei todas as informações em um único dataframe.
  - Usei MinMaxScaler para normalizar os valores que foram utilizados nos gráficos.
  - Exportei os dados para o banco de dados no MySQL.
  - Fiz envio automático de e-mail com informações diárias.
  - Gerei arquivo de log.
 
-## Bibliotecas 
- - dotenv
-- email.message
+
+## Ferramentas
+- Jupyter notebook
+- Python
+- dotenv
+- email
 - logging
-- matplotlib.pyplot as plt
-- numpy as np
+- matplotlib
+- numpy
 - os
-- pandas as pd
-- plotly.express as px
-- plotly.graph_objects as go
+- pandas
+- plotly
 - pymysql
-- seaborn as sns
+- seaborn
 - smtplib
-- sqlalchemy as db
-- datetime import date
-- email import encoders
-- email.mime.application import MIMEApplication
-- email.mime.base import MIMEBase
-- email.mime.multipart import MIMEMultipart
-- email.mime.text import MIMEText
-- fredapi import Fred
-- matplotlib import style
-- pretty_html_table import build_table
-- sklearn.preprocessing import MinMaxScaler
-    
-## Ferramenta
-  - Jupyter
+- sqlalchemy
+- datetime
+- fredapi
+- pretty_html_table
+- sklearn
 
 ## Conclusão
  - Observei que nos últimos 10 anos a evolução do índice de preço dos imóveis acompanhou a evolução do S&P 500 (um dos principais indicadores de ações norte-americanas, seria equivalente ao Ibovespa aqui no Brasil).
