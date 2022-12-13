@@ -10,20 +10,6 @@
   - Limpeza e processamento
   - Visualização
   - Exportação
- 
-## Bibliotecas 
-  - Python
-  - Fredapi
-  - Pandas
-  - Numpy
-  - Datetime
-  - Sklearn.preprocessing
-  - Matplotlib
-  - Plotly.express
-  - Seaborn
-    
-## Ferramenta
-  - Jupyter
   
 ## Etapas
   - No site https://research.stlouisfed.org/ pesquisei e identifiquei os dados que pudessem me ajudar a descobrir os índices cuja variação tem maior correlação com o índice dos preços dos imóveis nos Estados Unidos.
@@ -33,6 +19,34 @@
  - Exportei os dados para o banco de dados no MySQL.
  - Fiz envio automático de e-mail com informações diárias.
  - Gerei arquivo de log.
+
+## Bibliotecas 
+ - dotenv
+- email.message
+- logging
+- matplotlib.pyplot as plt
+- numpy as np
+- os
+- pandas as pd
+- plotly.express as px
+- plotly.graph_objects as go
+- pymysql
+- seaborn as sns
+- smtplib
+- sqlalchemy as db
+- datetime import date
+- email import encoders
+- email.mime.application import MIMEApplication
+- email.mime.base import MIMEBase
+- email.mime.multipart import MIMEMultipart
+- email.mime.text import MIMEText
+- fredapi import Fred
+- matplotlib import style
+- pretty_html_table import build_table
+- sklearn.preprocessing import MinMaxScaler
+    
+## Ferramenta
+  - Jupyter
 
 ## Conclusão
  - Observei que nos últimos 10 anos a evolução do índice de preço dos imóveis acompanhou a evolução do S&P 500 (um dos principais indicadores de ações norte-americanas, seria equivalente ao Ibovespa aqui no Brasil).
