@@ -6,13 +6,13 @@
     
 ## Técnicas
   - Extração
-  - Limpeza e processamento
+  - Limpeza e Processamento
   - Visualização
   - Exportação
   
 ## Etapas
   - No site https://research.stlouisfed.org/ pesquisei e identifiquei os dados que pudessem me ajudar a descobrir os índices cuja variação tem maior correlação com o índice dos preços dos imóveis nos Estados Unidos.
- - Filtrei os dados do S&P 500 para converter informações diárias em mensais e poder comparar com os índices com informação mensal. Fiz o mesmo processo com a taxa de juros.
+ - Filtrei os dados do S&P 500 para converter informações diárias em mensais e poder comparar com os índices que tem informação mensal. Fiz o mesmo processo com a taxa de juros.
  - Juntei todas as informações em um único dataframe.
  - Usei MinMaxScaler para normalizar os valores que foram utilizados nos gráficos.
  - Exportei os dados para o banco de dados no MySQL.
@@ -21,25 +21,25 @@
 
 
 ## Ferramentas
-- Jupyter notebook
-- Python
-- dotenv
-- email
-- logging
-- matplotlib
-- numpy
-- os
-- pandas
-- plotly
-- pymysql
-- seaborn
-- smtplib
-- sqlalchemy
-- datetime
-- fredapi
-- pretty_html_table
-- sklearn
-
+* Python
+  * Jupyter notebook
+  * datetime
+  * dotenv
+  * email
+  * fredapi
+  * logging
+  * matplotlib
+  * numpy
+  * os
+  * pandas
+  * plotly
+  * pretty_html_table
+  * pymysql
+  * seaborn
+  * sklearn
+  * smtplib
+  * sqlalchemy
+  
 ## Conclusão
  - Observei que nos últimos 10 anos a evolução do índice de preço dos imóveis acompanhou a evolução do S&P 500 (um dos principais indicadores de ações norte-americanas, seria equivalente ao Ibovespa aqui no Brasil).
 
