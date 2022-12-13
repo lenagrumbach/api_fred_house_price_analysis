@@ -3,7 +3,7 @@
 
 ## Objetivo
   O objetivo desse projeto é extrair dados através de uma API e gerar uma análise a partir destes dados. 
-  Usei a API do do FRED (dados econômicos do Federal Reserve Bank of St. Louis) para comparar índices financeiros com o preço dos imóveis nos USA.
+  Usei a API do do FRED (dados econômicos do Federal Reserve Bank of St. Louis) para comparar índices financeiros com o índice de preço dos imóveis nos USA.
     
 ## Técnicas
   - Extração
@@ -31,7 +31,7 @@
  - Juntei todas as informações em um único dataframe.
  - Usei MinMaxScaler para normalizar os valores que foram utilizados nos gráficos.
  - Exportei os dados para o banco de dados no MySQL.
- - Fiz envio automático de e-mail com as informações diárias.
+ - Fiz envio automático de e-mail com informações diárias.
  - Gerei arquivo de log.
 
 ## Conclusão
